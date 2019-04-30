@@ -1,0 +1,13 @@
+version: '3'
+services:
+  jupyternotebook:
+    container_name: python_notebook
+    labels:
+      description: Python using jupyter notebooks
+      name: jupyter notebook
+    build: .
+    ports:
+     - "10003:10003"
+    volumes:
+     - ./source:/home/notebooks
+    image: jupyternotebook:panpark
