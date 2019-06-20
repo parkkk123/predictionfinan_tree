@@ -2,3 +2,7 @@ scipy
 scikit-learn
 pandas
 numpy
+
+
+RUN pip install NiaPy==2.0.0rc4
+RUN pip install SwarmPackagePy==1.0.0a5
